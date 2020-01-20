@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -refsym inc /home/l2/philippot/TP7/inc.sch /home/l2/philippot/TP7/inc.sym 
+sch2sym -intstyle ise -family spartan3e -refsym inc /home/l2/philippot/TP7/inc.sch /home/l2/philippot/TP7/inc.sym 
+sch2sym -intstyle ise -family spartan3e -refsym inc /home/l2/philippot/TP7/inc.sch /home/l2/philippot/TP7/inc.sym 
+sch2sym -intstyle ise -family spartan3e -refsym inc /home/l2/philippot/TP7/inc.sch /home/l2/philippot/TP7/inc.sym 

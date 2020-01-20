@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map M.81d on Thu Oct 08 10:43:55 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "piece" LOCATE = SITE "D18" LEVEL 1;
+COMP "eau" LOCATE = SITE "B18" LEVEL 1;
+COMP "gregoire" LOCATE = SITE "G18" LEVEL 1;
+COMP "guillaume" LOCATE = SITE "H18" LEVEL 1;
+COMP "s0" LOCATE = SITE "J14" LEVEL 1;
+COMP "s1" LOCATE = SITE "J15" LEVEL 1;
+COMP "s2" LOCATE = SITE "K15" LEVEL 1;
+COMP "s3" LOCATE = SITE "K14" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,73 @@
+FRANCAIX Simon
+l2s3 
+
+Exercice 1:
+
+Q1/ entier : 1; binaire: 0000 0001; hexadécimal : 1
+    entier : 1; binaire: 0000 1010; hexadécimal : A
+    entier : 100; binaire: 0110 0100; hexadécimal : 64
+    entier : 1000; binaire: 0000 0011 1110 1000; hexadécimal : 3E8
+
+Q2/ binaire : 1; décimale : 1; hexadécimale : 1
+    binaire : 10; décimale : 2; hexadécimale : 2
+    binaire : 100; décimale : 4; hexadécimale : 4
+    binaire : 1000; décimale : 8; hexadécimale : 10
+
+Exercice 2:
+
+Q1/ héxadécimal : F; décimal : 15
+    héxadécimal : FF; décimal : 255
+    héxadécimal : FFF; décimal : 4095
+    héxadécimal : FFFF; décimal : 65535
+    héxadécimal : FFFFF; décimal : 1048575
+    héxadécimal : FFFFFF; décimal : 16777215
+
+    
+
+Q2/ octale : 7; décimale : 7
+    octale : 77; décimale : 63
+    octale : 777; décimale : 511
+    octale : 7777; décimale : 4095
+    octale : 77777; décimale : 32767
+    octale : 777777; décimale : 262143
+
+    binaire : 1; décimale : 1
+    binaire : 11; décimale : 3
+    binaire : 111; décimale : 7
+    binaire : 1111; décimale : 15
+    binaire : 11111; décimale : 31
+    binaire : 111111; décimale : 63
+
+En générale le plus grand entier n (en décimale) qui peut s'écrire avec t chiffre en base b est:
+n=b(puissance t)-1
+
+Exercice 3:
+
+Q2/ Il n'y a pas de différences entre cigale1.txt et cigale2.txt, mais on ne peut lire avec un éditeur de texte le fichier cigale1.odt.
+
+Q3/ cigale1.txt et cigale2.txt sont identiques, il manque un caractère (é) qui ne peut être affiché pour cigale1.txt. Tandis que cigale1.odt est identique à cigale2.txt.
+
+Q4/ cigale1.odt : 16971 octets
+    cigale1.txt : 624 octets
+    cigale2.txt : 648 octets
+
+Q5/ On reconnait cigale1.txt et cigale2.txt mais on ne peut reconnaitre cigale1.odt.
+
+    Dans cigale1.txt, le "é" est en hexadécimal E9.
+    Dans cigale2.txt, le "é" est en hexadécimal C3 A9.
+    C'est le format qui change, cigale1.txt est en iso-latin1 tandis que cigale2.txt est en utf-8.
+
+Exercice 4:
+
+Q2/ On ne visualise aucune différence entre les deux images.
+
+Q3/ adage.bmp : 82874 octets
+    adage.gif : 5057 octets
+
+    Le format gif est le format le plus économique.
+
+Q4/ Le contenu hexadécimal des deux fichiers est complétement différent.
+
+
+
+

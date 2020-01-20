@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym ALU /home/l2/philippot/Documents/ARCHITECTURE/TP/TP9/ALU.sch /home/l2/philippot/Documents/ARCHITECTURE/TP/TP9/ALU.sym 

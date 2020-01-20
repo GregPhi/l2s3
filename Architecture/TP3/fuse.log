@@ -1,0 +1,31 @@
+Running: /opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/l2/philippot/TP3/toplevel_isim_beh.exe -prj /home/l2/philippot/TP3/toplevel_beh.prj work.toplevel 
+ISim M.81d (signature 0x9ca8bed6)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/l2/philippot/TP3/demiadd.vhf" into library work
+Parsing VHDL file "/home/l2/philippot/TP3/add1bit.vhf" into library work
+Parsing VHDL file "/home/l2/philippot/TP3/add4bit.vhf" into library work
+Parsing VHDL file "/home/l2/philippot/TP3/toplevel.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 84564 KB
+Fuse CPU Usage: 220 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling package vcomponents
+Compiling architecture xor2_v of entity xor2 [xor2_default]
+Compiling architecture and2_v of entity and2 [and2_default]
+Compiling architecture behavioral of entity demiadd_muser_toplevel [demiadd_muser_toplevel_default]
+Compiling architecture or2_v of entity or2 [or2_default]
+Compiling architecture behavioral of entity add1bit_muser_toplevel [add1bit_muser_toplevel_default]
+Compiling architecture behavioral of entity add4bit_muser_toplevel [add4bit_muser_toplevel_default]
+Compiling architecture behavioral of entity toplevel
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable /home/l2/philippot/TP3/toplevel_isim_beh.exe
+Fuse Memory Usage: 648228 KB
+Fuse CPU Usage: 240 ms
+GCC CPU Usage: 320 ms

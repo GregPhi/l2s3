@@ -1,0 +1,29 @@
+Command line:
+   compteur4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  39953
+
+Thu Oct  8 10:56:36 2015
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 157.59 Meg
+
+ Total Signals          : 33
+ Total Nets             : 28
+ Total Signal Drivers   : 4
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 4
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 512
+Total Line Count : 5
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 232.047 Meg
+
+Thu Oct  8 10:56:46 2015
+

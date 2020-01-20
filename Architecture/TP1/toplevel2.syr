@@ -1,0 +1,383 @@
+Release 12.4 - xst M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: toplevel2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "toplevel2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "toplevel2"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : toplevel2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/l2/philippot/TP1/toplevel2.vhf" in Library work.
+Entity <INV8_MXILINX_toplevel2> compiled.
+Entity <INV8_MXILINX_toplevel2> (Architecture <BEHAVIORAL>) compiled.
+Entity <OBUF8_MXILINX_toplevel2> compiled.
+Entity <OBUF8_MXILINX_toplevel2> (Architecture <BEHAVIORAL>) compiled.
+Entity <IBUF8_MXILINX_toplevel2> compiled.
+Entity <IBUF8_MXILINX_toplevel2> (Architecture <BEHAVIORAL>) compiled.
+Entity <toplevel2> compiled.
+Entity <toplevel2> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <toplevel2> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <IBUF8_MXILINX_toplevel2> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <OBUF8_MXILINX_toplevel2> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <INV8_MXILINX_toplevel2> in library <work> (architecture <BEHAVIORAL>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <toplevel2> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  XLXI_1_0" for instance <XLXI_1> in unit <toplevel2>.
+    Set user-defined property "HU_SET =  XLXI_2_1" for instance <XLXI_2> in unit <toplevel2>.
+    Set user-defined property "HU_SET =  XLXI_4_2" for instance <XLXI_4> in unit <toplevel2>.
+Entity <toplevel2> analyzed. Unit <toplevel2> generated.
+
+Analyzing Entity <IBUF8_MXILINX_toplevel2> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <I_36_30> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <I_36_30> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_30> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <I_36_31> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <I_36_31> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_31> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <I_36_32> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <I_36_32> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_32> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <I_36_33> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <I_36_33> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_33> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <I_36_34> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <I_36_34> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_34> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <I_36_35> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <I_36_35> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_35> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <I_36_36> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <I_36_36> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_36> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <I_36_37> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <I_36_37> in unit <IBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_37> in unit <IBUF8_MXILINX_toplevel2>.
+Entity <IBUF8_MXILINX_toplevel2> analyzed. Unit <IBUF8_MXILINX_toplevel2> generated.
+
+Analyzing Entity <OBUF8_MXILINX_toplevel2> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "DRIVE =  12" for instance <I_36_30> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_30> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "SLEW =  SLOW" for instance <I_36_30> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "DRIVE =  12" for instance <I_36_31> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_31> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "SLEW =  SLOW" for instance <I_36_31> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "DRIVE =  12" for instance <I_36_32> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_32> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "SLEW =  SLOW" for instance <I_36_32> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "DRIVE =  12" for instance <I_36_33> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_33> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "SLEW =  SLOW" for instance <I_36_33> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "DRIVE =  12" for instance <I_36_34> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_34> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "SLEW =  SLOW" for instance <I_36_34> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "DRIVE =  12" for instance <I_36_35> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_35> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "SLEW =  SLOW" for instance <I_36_35> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "DRIVE =  12" for instance <I_36_36> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_36> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "SLEW =  SLOW" for instance <I_36_36> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "DRIVE =  12" for instance <I_36_37> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <I_36_37> in unit <OBUF8_MXILINX_toplevel2>.
+    Set user-defined property "SLEW =  SLOW" for instance <I_36_37> in unit <OBUF8_MXILINX_toplevel2>.
+Entity <OBUF8_MXILINX_toplevel2> analyzed. Unit <OBUF8_MXILINX_toplevel2> generated.
+
+Analyzing Entity <INV8_MXILINX_toplevel2> in library <work> (Architecture <BEHAVIORAL>).
+Entity <INV8_MXILINX_toplevel2> analyzed. Unit <INV8_MXILINX_toplevel2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <IBUF8_MXILINX_toplevel2>.
+    Related source file is "/home/l2/philippot/TP1/toplevel2.vhf".
+Unit <IBUF8_MXILINX_toplevel2> synthesized.
+
+
+Synthesizing Unit <OBUF8_MXILINX_toplevel2>.
+    Related source file is "/home/l2/philippot/TP1/toplevel2.vhf".
+Unit <OBUF8_MXILINX_toplevel2> synthesized.
+
+
+Synthesizing Unit <INV8_MXILINX_toplevel2>.
+    Related source file is "/home/l2/philippot/TP1/toplevel2.vhf".
+Unit <INV8_MXILINX_toplevel2> synthesized.
+
+
+Synthesizing Unit <toplevel2>.
+    Related source file is "/home/l2/philippot/TP1/toplevel2.vhf".
+Unit <toplevel2> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <toplevel2> ...
+
+Optimizing unit <IBUF8_MXILINX_toplevel2> ...
+
+Optimizing unit <OBUF8_MXILINX_toplevel2> ...
+
+Optimizing unit <INV8_MXILINX_toplevel2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block toplevel2, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : toplevel2.ngr
+Top Level Output File Name         : toplevel2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 36
+
+Cell Usage :
+# BELS                             : 9
+#      GND                         : 1
+#      INV                         : 8
+# IO Buffers                       : 36
+#      IBUF                        : 8
+#      OBUF                        : 28
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                        4  out of   8672     0%  
+ Number of 4 input LUTs:                  8  out of  17344     0%  
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    250    14%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 6.145ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Delay:               6.145ns (Levels of Logic = 5)
+  Source:            switches<7> (PAD)
+  Destination:       sevenseg<7> (PAD)
+
+  Data Path: switches<7> to sevenseg<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'XLXI_1'
+     IBUF:I->O             3   1.218   0.531  I_36_33 (O<7>)
+     end scope: 'XLXI_1'
+     begin scope: 'XLXI_4'
+     INV:I->O              1   0.704   0.420  I_36_33 (O<7>)
+     end scope: 'XLXI_4'
+     OBUF:I->O                 3.272          sevenseg_7_OBUF (sevenseg<7>)
+    ----------------------------------------
+    Total                      6.145ns (5.194ns logic, 0.951ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.41 secs
+ 
+--> 
+
+
+Total memory usage is 346236 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/l2/philippot/TP1/toplevel2.xst" -ofn "/home/l2/philippot/TP1/toplevel2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc S3.ucf -p xc3s1200e-fg320-4 toplevel2.ngc toplevel2.ngd  
+sch2sym -intstyle ise -family spartan3e -refsym toplevel2 /home/l2/philippot/TP1/toplevel2.sch /home/l2/philippot/TP1/toplevel2.sym 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc S3.ucf -uc /home/l2/philippot/TP2/TP2.ucf -p xc3s1200e-fg320-4 toplevel2.ngc toplevel2.ngd  

@@ -1,0 +1,8 @@
+vhdtdtfi -lib work fsm.vhd -prj TP7 -o fsm.spl -module fsm -template /opt/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/philippot/TP7/fsm.sym 
+vhdtdtfi -lib work fsm.vhd -prj TP7 -o fsm.spl -module fsm -template /opt/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/philippot/TP7/fsm.sym 
+vhdtdtfi -lib work fsm.vhd -prj TP7 -o fsm.spl -module fsm -template /opt/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/philippot/TP7/fsm.sym 
+vhdtdtfi -lib work fsm.vhd -prj TP7 -o fsm.spl -module fsm -template /opt/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/philippot/TP7/fsm.sym 

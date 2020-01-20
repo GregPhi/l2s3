@@ -1,0 +1,10 @@
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/philippot/TP6/S3.sch /home/l2/philippot/TP6/S3.sym 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/philippot/TP6/S3.sch /home/l2/philippot/TP6/S3.sym 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/philippot/TP6/S3.sch /home/l2/philippot/TP6/S3.sym 
+xst -intstyle ise -ifn "/home/l2/philippot/TP6/S3.xst" -ofn "/home/l2/philippot/TP6/S3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 S3.ngc S3.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o S3_map.ncd S3.ngd S3.pcf 
+par -w -intstyle ise -ol high -t 1 S3_map.ncd S3.ncd S3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml S3.twx S3.ncd -o S3.twr S3.pcf 
+bitgen -intstyle ise -f S3.ut S3.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/philippot/TP6/S3.sch /home/l2/philippot/TP6/S3.sym 

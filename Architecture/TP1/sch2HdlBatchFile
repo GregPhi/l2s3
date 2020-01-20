@@ -1,0 +1,2 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP1/toplevel.vhf,-w,/home/l2/philippot/TP2/toplevel.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP1/TP23.vhf,-w,/home/l2/philippot/TP1/TP23.sch

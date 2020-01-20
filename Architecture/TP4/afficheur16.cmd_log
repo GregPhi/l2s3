@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym afficheur16 /home/l2/philippot/TP4/afficheur16.sch /home/l2/philippot/TP4/afficheur16.sym 

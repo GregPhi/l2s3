@@ -1,0 +1,8 @@
+NET "gregoire" LOC = "G18" ;
+NET "guillaume" LOC = "H18" ;
+NET "s0" LOC = "J14" ;
+NET "s1" LOC = "J15" ;
+NET "s2" LOC = "K15" ;
+NET "s3" LOC = "K14" ;
+NET "eau" LOC = "B18" ;
+NET "piece" LOC = "D18" ;

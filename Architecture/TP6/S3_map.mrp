@@ -1,0 +1,932 @@
+Release 12.4 Map M.81d (lin64)
+Xilinx Mapping Report File for Design 'S3'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off
+-c 100 -o S3_map.ncd S3.ngd S3.pcf 
+Target Device  : xc3s1200e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.52.76.2 $
+Mapped Date    : Thu Oct 22 12:11:57 2015
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:            32 out of  17,344    1%
+Logic Distribution:
+  Number of occupied Slices:             24 out of   8,672    1%
+    Number of Slices containing only related logic:      24 out of      24 100%
+    Number of Slices containing unrelated logic:          0 out of      24   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Number of bonded IOBs:                 49 out of     250   19%
+  Number of BUFGMUXs:                     1 out of      24    4%
+
+Average Fanout of Non-Clock Nets:                1.00
+
+Peak Memory Usage:  382 MB
+Total REAL time to MAP completion:  1 secs 
+Total CPU time to MAP completion:   1 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:54 - 'xc3s1200e' is a WebPack part.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 530 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+FDCE 		CO/I_Q0
+   optimized to 0
+FDCE 		CO/I_Q1
+   optimized to 0
+FDCE 		CO/I_Q10
+   optimized to 0
+FDCE 		CO/I_Q11
+   optimized to 0
+FDCE 		CO/I_Q12
+   optimized to 0
+FDCE 		CO/I_Q13
+   optimized to 0
+FDCE 		CO/I_Q14
+   optimized to 0
+FDCE 		CO/I_Q15
+   optimized to 0
+FDCE 		CO/I_Q2
+   optimized to 0
+FDCE 		CO/I_Q3
+   optimized to 0
+FDCE 		CO/I_Q4
+   optimized to 0
+FDCE 		CO/I_Q5
+   optimized to 0
+FDCE 		CO/I_Q6
+   optimized to 0
+FDCE 		CO/I_Q7
+   optimized to 0
+FDCE 		CO/I_Q8
+   optimized to 0
+FDCE 		CO/I_Q9
+   optimized to 0
+FDCE 		R1/I_Q0
+   optimized to 0
+FDCE 		R1/I_Q1
+   optimized to 0
+FDCE 		R1/I_Q10
+   optimized to 0
+FDCE 		R1/I_Q11
+   optimized to 0
+FDCE 		R1/I_Q12
+   optimized to 0
+FDCE 		R1/I_Q13
+   optimized to 0
+FDCE 		R1/I_Q14
+   optimized to 0
+FDCE 		R1/I_Q15
+   optimized to 0
+FDCE 		R1/I_Q2
+   optimized to 0
+FDCE 		R1/I_Q3
+   optimized to 0
+FDCE 		R1/I_Q4
+   optimized to 0
+FDCE 		R1/I_Q5
+   optimized to 0
+FDCE 		R1/I_Q6
+   optimized to 0
+FDCE 		R1/I_Q7
+   optimized to 0
+FDCE 		R1/I_Q8
+   optimized to 0
+FDCE 		R1/I_Q9
+   optimized to 0
+FDCE 		R2/I_Q0
+   optimized to 0
+FDCE 		R2/I_Q1
+   optimized to 0
+FDCE 		R2/I_Q10
+   optimized to 0
+FDCE 		R2/I_Q11
+   optimized to 0
+FDCE 		R2/I_Q12
+   optimized to 0
+FDCE 		R2/I_Q13
+   optimized to 0
+FDCE 		R2/I_Q14
+   optimized to 0
+FDCE 		R2/I_Q15
+   optimized to 0
+FDCE 		R2/I_Q2
+   optimized to 0
+FDCE 		R2/I_Q3
+   optimized to 0
+FDCE 		R2/I_Q4
+   optimized to 0
+FDCE 		R2/I_Q5
+   optimized to 0
+FDCE 		R2/I_Q6
+   optimized to 0
+FDCE 		R2/I_Q7
+   optimized to 0
+FDCE 		R2/I_Q8
+   optimized to 0
+FDCE 		R2/I_Q9
+   optimized to 0
+FDCE 		R3/I_Q0
+   optimized to 0
+FDCE 		R3/I_Q1
+   optimized to 0
+FDCE 		R3/I_Q10
+   optimized to 0
+FDCE 		R3/I_Q11
+   optimized to 0
+FDCE 		R3/I_Q12
+   optimized to 0
+FDCE 		R3/I_Q13
+   optimized to 0
+FDCE 		R3/I_Q14
+   optimized to 0
+FDCE 		R3/I_Q15
+   optimized to 0
+FDCE 		R3/I_Q2
+   optimized to 0
+FDCE 		R3/I_Q3
+   optimized to 0
+FDCE 		R3/I_Q4
+   optimized to 0
+FDCE 		R3/I_Q5
+   optimized to 0
+FDCE 		R3/I_Q6
+   optimized to 0
+FDCE 		R3/I_Q7
+   optimized to 0
+FDCE 		R3/I_Q8
+   optimized to 0
+FDCE 		R3/I_Q9
+   optimized to 0
+FDCE 		R4/I_Q0
+   optimized to 0
+FDCE 		R4/I_Q1
+   optimized to 0
+FDCE 		R4/I_Q10
+   optimized to 0
+FDCE 		R4/I_Q11
+   optimized to 0
+FDCE 		R4/I_Q12
+   optimized to 0
+FDCE 		R4/I_Q13
+   optimized to 0
+FDCE 		R4/I_Q14
+   optimized to 0
+FDCE 		R4/I_Q15
+   optimized to 0
+FDCE 		R4/I_Q2
+   optimized to 0
+FDCE 		R4/I_Q3
+   optimized to 0
+FDCE 		R4/I_Q4
+   optimized to 0
+FDCE 		R4/I_Q5
+   optimized to 0
+FDCE 		R4/I_Q6
+   optimized to 0
+FDCE 		R4/I_Q7
+   optimized to 0
+FDCE 		R4/I_Q8
+   optimized to 0
+FDCE 		R4/I_Q9
+   optimized to 0
+FDCE 		R5/I_Q0
+   optimized to 0
+FDCE 		R5/I_Q1
+   optimized to 0
+FDCE 		R5/I_Q10
+   optimized to 0
+FDCE 		R5/I_Q11
+   optimized to 0
+FDCE 		R5/I_Q12
+   optimized to 0
+FDCE 		R5/I_Q13
+   optimized to 0
+FDCE 		R5/I_Q14
+   optimized to 0
+FDCE 		R5/I_Q15
+   optimized to 0
+FDCE 		R5/I_Q2
+   optimized to 0
+FDCE 		R5/I_Q3
+   optimized to 0
+FDCE 		R5/I_Q4
+   optimized to 0
+FDCE 		R5/I_Q5
+   optimized to 0
+FDCE 		R5/I_Q6
+   optimized to 0
+FDCE 		R5/I_Q7
+   optimized to 0
+FDCE 		R5/I_Q8
+   optimized to 0
+FDCE 		R5/I_Q9
+   optimized to 0
+FDCE 		R7seg/I_Q0
+   optimized to 0
+FDCE 		R7seg/I_Q1
+   optimized to 0
+FDCE 		R7seg/I_Q10
+   optimized to 0
+FDCE 		R7seg/I_Q11
+   optimized to 0
+FDCE 		R7seg/I_Q12
+   optimized to 0
+FDCE 		R7seg/I_Q13
+   optimized to 0
+FDCE 		R7seg/I_Q14
+   optimized to 0
+FDCE 		R7seg/I_Q15
+   optimized to 0
+FDCE 		R7seg/I_Q2
+   optimized to 0
+FDCE 		R7seg/I_Q3
+   optimized to 0
+FDCE 		R7seg/I_Q4
+   optimized to 0
+FDCE 		R7seg/I_Q5
+   optimized to 0
+FDCE 		R7seg/I_Q6
+   optimized to 0
+FDCE 		R7seg/I_Q7
+   optimized to 0
+FDCE 		R7seg/I_Q8
+   optimized to 0
+FDCE 		R7seg/I_Q9
+   optimized to 0
+FDCE 		Ram/I_Q0
+   optimized to 0
+FDCE 		Ram/I_Q1
+   optimized to 0
+FDCE 		Ram/I_Q10
+   optimized to 0
+FDCE 		Ram/I_Q11
+   optimized to 0
+FDCE 		Ram/I_Q12
+   optimized to 0
+FDCE 		Ram/I_Q13
+   optimized to 0
+FDCE 		Ram/I_Q14
+   optimized to 0
+FDCE 		Ram/I_Q15
+   optimized to 0
+FDCE 		Ram/I_Q2
+   optimized to 0
+FDCE 		Ram/I_Q3
+   optimized to 0
+FDCE 		Ram/I_Q4
+   optimized to 0
+FDCE 		Ram/I_Q5
+   optimized to 0
+FDCE 		Ram/I_Q6
+   optimized to 0
+FDCE 		Ram/I_Q7
+   optimized to 0
+FDCE 		Ram/I_Q8
+   optimized to 0
+FDCE 		Ram/I_Q9
+   optimized to 0
+FDCE 		Rd_ext/I_Q0
+   optimized to 0
+FDCE 		Rd_ext/I_Q1
+   optimized to 0
+FDCE 		Rd_ext/I_Q10
+   optimized to 0
+FDCE 		Rd_ext/I_Q11
+   optimized to 0
+FDCE 		Rd_ext/I_Q12
+   optimized to 0
+FDCE 		Rd_ext/I_Q13
+   optimized to 0
+FDCE 		Rd_ext/I_Q14
+   optimized to 0
+FDCE 		Rd_ext/I_Q15
+   optimized to 0
+FDCE 		Rd_ext/I_Q2
+   optimized to 0
+FDCE 		Rd_ext/I_Q3
+   optimized to 0
+FDCE 		Rd_ext/I_Q4
+   optimized to 0
+FDCE 		Rd_ext/I_Q5
+   optimized to 0
+FDCE 		Rd_ext/I_Q6
+   optimized to 0
+FDCE 		Rd_ext/I_Q7
+   optimized to 0
+FDCE 		Rd_ext/I_Q8
+   optimized to 0
+FDCE 		Rd_ext/I_Q9
+   optimized to 0
+FDCE 		Rdm/I_Q0
+   optimized to 0
+FDCE 		Rdm/I_Q1
+   optimized to 0
+FDCE 		Rdm/I_Q10
+   optimized to 0
+FDCE 		Rdm/I_Q11
+   optimized to 0
+FDCE 		Rdm/I_Q12
+   optimized to 0
+FDCE 		Rdm/I_Q13
+   optimized to 0
+FDCE 		Rdm/I_Q14
+   optimized to 0
+FDCE 		Rdm/I_Q15
+   optimized to 0
+FDCE 		Rdm/I_Q2
+   optimized to 0
+FDCE 		Rdm/I_Q3
+   optimized to 0
+FDCE 		Rdm/I_Q4
+   optimized to 0
+FDCE 		Rdm/I_Q5
+   optimized to 0
+FDCE 		Rdm/I_Q6
+   optimized to 0
+FDCE 		Rdm/I_Q7
+   optimized to 0
+FDCE 		Rdm/I_Q8
+   optimized to 0
+FDCE 		Rdm/I_Q9
+   optimized to 0
+FDCE 		Ri/I_Q0
+   optimized to 0
+FDCE 		Ri/I_Q1
+   optimized to 0
+FDCE 		Ri/I_Q10
+   optimized to 0
+FDCE 		Ri/I_Q11
+   optimized to 0
+FDCE 		Ri/I_Q12
+   optimized to 0
+FDCE 		Ri/I_Q13
+   optimized to 0
+FDCE 		Ri/I_Q14
+   optimized to 0
+FDCE 		Ri/I_Q15
+   optimized to 0
+FDCE 		Ri/I_Q2
+   optimized to 0
+FDCE 		Ri/I_Q3
+   optimized to 0
+FDCE 		Ri/I_Q4
+   optimized to 0
+FDCE 		Ri/I_Q5
+   optimized to 0
+FDCE 		Ri/I_Q6
+   optimized to 0
+FDCE 		Ri/I_Q7
+   optimized to 0
+FDCE 		Ri/I_Q8
+   optimized to 0
+FDCE 		Ri/I_Q9
+   optimized to 0
+FDCE 		Rsrc1/I_Q0
+   optimized to 0
+FDCE 		Rsrc1/I_Q1
+   optimized to 0
+FDCE 		Rsrc1/I_Q10
+   optimized to 0
+FDCE 		Rsrc1/I_Q11
+   optimized to 0
+FDCE 		Rsrc1/I_Q12
+   optimized to 0
+FDCE 		Rsrc1/I_Q13
+   optimized to 0
+FDCE 		Rsrc1/I_Q14
+   optimized to 0
+FDCE 		Rsrc1/I_Q15
+   optimized to 0
+FDCE 		Rsrc1/I_Q2
+   optimized to 0
+FDCE 		Rsrc1/I_Q3
+   optimized to 0
+FDCE 		Rsrc1/I_Q4
+   optimized to 0
+FDCE 		Rsrc1/I_Q5
+   optimized to 0
+FDCE 		Rsrc1/I_Q6
+   optimized to 0
+FDCE 		Rsrc1/I_Q7
+   optimized to 0
+FDCE 		Rsrc1/I_Q8
+   optimized to 0
+FDCE 		Rsrc1/I_Q9
+   optimized to 0
+FDCE 		Rsrc2/I_Q0
+   optimized to 0
+FDCE 		Rsrc2/I_Q1
+   optimized to 0
+FDCE 		Rsrc2/I_Q10
+   optimized to 0
+FDCE 		Rsrc2/I_Q11
+   optimized to 0
+FDCE 		Rsrc2/I_Q12
+   optimized to 0
+FDCE 		Rsrc2/I_Q13
+   optimized to 0
+FDCE 		Rsrc2/I_Q14
+   optimized to 0
+FDCE 		Rsrc2/I_Q15
+   optimized to 0
+FDCE 		Rsrc2/I_Q2
+   optimized to 0
+FDCE 		Rsrc2/I_Q3
+   optimized to 0
+FDCE 		Rsrc2/I_Q4
+   optimized to 0
+FDCE 		Rsrc2/I_Q5
+   optimized to 0
+FDCE 		Rsrc2/I_Q6
+   optimized to 0
+FDCE 		Rsrc2/I_Q7
+   optimized to 0
+FDCE 		Rsrc2/I_Q8
+   optimized to 0
+FDCE 		Rsrc2/I_Q9
+   optimized to 0
+GND 		XLXI_49
+VCC 		XLXI_96
+AND2 		c0/c0/XLXI_1
+OR2 		c0/c0/XLXI_2
+AND2 		c0/c1/XLXI_1
+OR2 		c0/c1/XLXI_2
+AND2 		c0/c10/XLXI_1
+OR2 		c0/c10/XLXI_2
+AND2 		c0/c11/XLXI_1
+OR2 		c0/c11/XLXI_2
+AND2 		c0/c12/XLXI_1
+OR2 		c0/c12/XLXI_2
+AND2 		c0/c13/XLXI_1
+OR2 		c0/c13/XLXI_2
+AND2 		c0/c14/XLXI_1
+OR2 		c0/c14/XLXI_2
+AND2 		c0/c15/XLXI_1
+OR2 		c0/c15/XLXI_2
+AND2 		c0/c2/XLXI_1
+OR2 		c0/c2/XLXI_2
+AND2 		c0/c3/XLXI_1
+OR2 		c0/c3/XLXI_2
+AND2 		c0/c4/XLXI_1
+OR2 		c0/c4/XLXI_2
+AND2 		c0/c5/XLXI_1
+OR2 		c0/c5/XLXI_2
+AND2 		c0/c6/XLXI_1
+OR2 		c0/c6/XLXI_2
+AND2 		c0/c7/XLXI_1
+OR2 		c0/c7/XLXI_2
+AND2 		c0/c8/XLXI_1
+OR2 		c0/c8/XLXI_2
+AND2 		c0/c9/XLXI_1
+OR2 		c0/c9/XLXI_2
+AND2 		c1/c0/XLXI_1
+OR2 		c1/c0/XLXI_2
+AND2 		c1/c1/XLXI_1
+OR2 		c1/c1/XLXI_2
+AND2 		c1/c10/XLXI_1
+OR2 		c1/c10/XLXI_2
+AND2 		c1/c11/XLXI_1
+OR2 		c1/c11/XLXI_2
+AND2 		c1/c12/XLXI_1
+OR2 		c1/c12/XLXI_2
+AND2 		c1/c13/XLXI_1
+OR2 		c1/c13/XLXI_2
+AND2 		c1/c14/XLXI_1
+OR2 		c1/c14/XLXI_2
+AND2 		c1/c15/XLXI_1
+OR2 		c1/c15/XLXI_2
+AND2 		c1/c2/XLXI_1
+OR2 		c1/c2/XLXI_2
+AND2 		c1/c3/XLXI_1
+OR2 		c1/c3/XLXI_2
+AND2 		c1/c4/XLXI_1
+OR2 		c1/c4/XLXI_2
+AND2 		c1/c5/XLXI_1
+OR2 		c1/c5/XLXI_2
+AND2 		c1/c6/XLXI_1
+OR2 		c1/c6/XLXI_2
+AND2 		c1/c7/XLXI_1
+OR2 		c1/c7/XLXI_2
+AND2 		c1/c8/XLXI_1
+OR2 		c1/c8/XLXI_2
+AND2 		c1/c9/XLXI_1
+OR2 		c1/c9/XLXI_2
+AND2 		c10/c0/XLXI_1
+AND2 		c10/c1/XLXI_1
+AND2 		c10/c10/XLXI_1
+AND2 		c10/c11/XLXI_1
+AND2 		c10/c12/XLXI_1
+AND2 		c10/c13/XLXI_1
+AND2 		c10/c14/XLXI_1
+AND2 		c10/c15/XLXI_1
+AND2 		c10/c2/XLXI_1
+AND2 		c10/c3/XLXI_1
+AND2 		c10/c4/XLXI_1
+AND2 		c10/c5/XLXI_1
+AND2 		c10/c6/XLXI_1
+AND2 		c10/c7/XLXI_1
+AND2 		c10/c8/XLXI_1
+AND2 		c10/c9/XLXI_1
+AND2 		c11/c0/XLXI_1
+AND2 		c11/c1/XLXI_1
+AND2 		c11/c10/XLXI_1
+AND2 		c11/c11/XLXI_1
+AND2 		c11/c12/XLXI_1
+AND2 		c11/c13/XLXI_1
+AND2 		c11/c14/XLXI_1
+AND2 		c11/c15/XLXI_1
+AND2 		c11/c2/XLXI_1
+AND2 		c11/c3/XLXI_1
+AND2 		c11/c4/XLXI_1
+AND2 		c11/c5/XLXI_1
+AND2 		c11/c6/XLXI_1
+AND2 		c11/c7/XLXI_1
+AND2 		c11/c8/XLXI_1
+AND2 		c11/c9/XLXI_1
+AND2 		c12/c0/XLXI_1
+AND2 		c12/c1/XLXI_1
+AND2 		c12/c10/XLXI_1
+AND2 		c12/c11/XLXI_1
+AND2 		c12/c12/XLXI_1
+AND2 		c12/c13/XLXI_1
+AND2 		c12/c14/XLXI_1
+AND2 		c12/c15/XLXI_1
+AND2 		c12/c2/XLXI_1
+AND2 		c12/c3/XLXI_1
+AND2 		c12/c4/XLXI_1
+AND2 		c12/c5/XLXI_1
+AND2 		c12/c6/XLXI_1
+AND2 		c12/c7/XLXI_1
+AND2 		c12/c8/XLXI_1
+AND2 		c12/c9/XLXI_1
+AND2 		c13/c0/XLXI_1
+AND2 		c13/c1/XLXI_1
+AND2 		c13/c10/XLXI_1
+AND2 		c13/c11/XLXI_1
+AND2 		c13/c12/XLXI_1
+AND2 		c13/c13/XLXI_1
+AND2 		c13/c14/XLXI_1
+AND2 		c13/c15/XLXI_1
+AND2 		c13/c2/XLXI_1
+AND2 		c13/c3/XLXI_1
+AND2 		c13/c4/XLXI_1
+AND2 		c13/c5/XLXI_1
+AND2 		c13/c6/XLXI_1
+AND2 		c13/c7/XLXI_1
+AND2 		c13/c8/XLXI_1
+AND2 		c13/c9/XLXI_1
+AND2 		c14/c0/XLXI_1
+AND2 		c14/c1/XLXI_1
+AND2 		c14/c10/XLXI_1
+AND2 		c14/c11/XLXI_1
+AND2 		c14/c12/XLXI_1
+AND2 		c14/c13/XLXI_1
+AND2 		c14/c14/XLXI_1
+AND2 		c14/c15/XLXI_1
+AND2 		c14/c2/XLXI_1
+AND2 		c14/c3/XLXI_1
+AND2 		c14/c4/XLXI_1
+AND2 		c14/c5/XLXI_1
+AND2 		c14/c6/XLXI_1
+AND2 		c14/c7/XLXI_1
+AND2 		c14/c8/XLXI_1
+AND2 		c14/c9/XLXI_1
+AND2 		c2/c0/XLXI_1
+OR2 		c2/c0/XLXI_2
+AND2 		c2/c1/XLXI_1
+OR2 		c2/c1/XLXI_2
+AND2 		c2/c10/XLXI_1
+OR2 		c2/c10/XLXI_2
+AND2 		c2/c11/XLXI_1
+OR2 		c2/c11/XLXI_2
+AND2 		c2/c12/XLXI_1
+OR2 		c2/c12/XLXI_2
+AND2 		c2/c13/XLXI_1
+OR2 		c2/c13/XLXI_2
+AND2 		c2/c14/XLXI_1
+OR2 		c2/c14/XLXI_2
+AND2 		c2/c15/XLXI_1
+OR2 		c2/c15/XLXI_2
+AND2 		c2/c2/XLXI_1
+OR2 		c2/c2/XLXI_2
+AND2 		c2/c3/XLXI_1
+OR2 		c2/c3/XLXI_2
+AND2 		c2/c4/XLXI_1
+OR2 		c2/c4/XLXI_2
+AND2 		c2/c5/XLXI_1
+OR2 		c2/c5/XLXI_2
+AND2 		c2/c6/XLXI_1
+OR2 		c2/c6/XLXI_2
+AND2 		c2/c7/XLXI_1
+OR2 		c2/c7/XLXI_2
+AND2 		c2/c8/XLXI_1
+OR2 		c2/c8/XLXI_2
+AND2 		c2/c9/XLXI_1
+OR2 		c2/c9/XLXI_2
+AND2 		c3/c0/XLXI_1
+OR2 		c3/c0/XLXI_2
+AND2 		c3/c1/XLXI_1
+OR2 		c3/c1/XLXI_2
+AND2 		c3/c10/XLXI_1
+OR2 		c3/c10/XLXI_2
+AND2 		c3/c11/XLXI_1
+OR2 		c3/c11/XLXI_2
+AND2 		c3/c12/XLXI_1
+OR2 		c3/c12/XLXI_2
+AND2 		c3/c13/XLXI_1
+OR2 		c3/c13/XLXI_2
+AND2 		c3/c14/XLXI_1
+OR2 		c3/c14/XLXI_2
+AND2 		c3/c15/XLXI_1
+OR2 		c3/c15/XLXI_2
+AND2 		c3/c2/XLXI_1
+OR2 		c3/c2/XLXI_2
+AND2 		c3/c3/XLXI_1
+OR2 		c3/c3/XLXI_2
+AND2 		c3/c4/XLXI_1
+OR2 		c3/c4/XLXI_2
+AND2 		c3/c5/XLXI_1
+OR2 		c3/c5/XLXI_2
+AND2 		c3/c6/XLXI_1
+OR2 		c3/c6/XLXI_2
+AND2 		c3/c7/XLXI_1
+OR2 		c3/c7/XLXI_2
+AND2 		c3/c8/XLXI_1
+OR2 		c3/c8/XLXI_2
+AND2 		c3/c9/XLXI_1
+OR2 		c3/c9/XLXI_2
+AND2 		c4/c0/XLXI_1
+OR2 		c4/c0/XLXI_2
+AND2 		c4/c1/XLXI_1
+OR2 		c4/c1/XLXI_2
+AND2 		c4/c10/XLXI_1
+OR2 		c4/c10/XLXI_2
+AND2 		c4/c11/XLXI_1
+OR2 		c4/c11/XLXI_2
+AND2 		c4/c12/XLXI_1
+OR2 		c4/c12/XLXI_2
+AND2 		c4/c13/XLXI_1
+OR2 		c4/c13/XLXI_2
+AND2 		c4/c14/XLXI_1
+OR2 		c4/c14/XLXI_2
+AND2 		c4/c15/XLXI_1
+OR2 		c4/c15/XLXI_2
+AND2 		c4/c2/XLXI_1
+OR2 		c4/c2/XLXI_2
+AND2 		c4/c3/XLXI_1
+OR2 		c4/c3/XLXI_2
+AND2 		c4/c4/XLXI_1
+OR2 		c4/c4/XLXI_2
+AND2 		c4/c5/XLXI_1
+OR2 		c4/c5/XLXI_2
+AND2 		c4/c6/XLXI_1
+OR2 		c4/c6/XLXI_2
+AND2 		c4/c7/XLXI_1
+OR2 		c4/c7/XLXI_2
+AND2 		c4/c8/XLXI_1
+OR2 		c4/c8/XLXI_2
+AND2 		c4/c9/XLXI_1
+OR2 		c4/c9/XLXI_2
+AND2 		c5/c0/XLXI_1
+OR2 		c5/c0/XLXI_2
+AND2 		c5/c1/XLXI_1
+OR2 		c5/c1/XLXI_2
+AND2 		c5/c10/XLXI_1
+OR2 		c5/c10/XLXI_2
+AND2 		c5/c11/XLXI_1
+OR2 		c5/c11/XLXI_2
+AND2 		c5/c12/XLXI_1
+OR2 		c5/c12/XLXI_2
+AND2 		c5/c13/XLXI_1
+OR2 		c5/c13/XLXI_2
+AND2 		c5/c14/XLXI_1
+OR2 		c5/c14/XLXI_2
+AND2 		c5/c15/XLXI_1
+OR2 		c5/c15/XLXI_2
+AND2 		c5/c2/XLXI_1
+OR2 		c5/c2/XLXI_2
+AND2 		c5/c3/XLXI_1
+OR2 		c5/c3/XLXI_2
+AND2 		c5/c4/XLXI_1
+OR2 		c5/c4/XLXI_2
+AND2 		c5/c5/XLXI_1
+OR2 		c5/c5/XLXI_2
+AND2 		c5/c6/XLXI_1
+OR2 		c5/c6/XLXI_2
+AND2 		c5/c7/XLXI_1
+OR2 		c5/c7/XLXI_2
+AND2 		c5/c8/XLXI_1
+OR2 		c5/c8/XLXI_2
+AND2 		c5/c9/XLXI_1
+OR2 		c5/c9/XLXI_2
+AND2 		c7/c0/XLXI_1
+AND2 		c7/c1/XLXI_1
+AND2 		c7/c10/XLXI_1
+AND2 		c7/c11/XLXI_1
+AND2 		c7/c12/XLXI_1
+AND2 		c7/c13/XLXI_1
+AND2 		c7/c14/XLXI_1
+AND2 		c7/c15/XLXI_1
+AND2 		c7/c2/XLXI_1
+AND2 		c7/c3/XLXI_1
+AND2 		c7/c4/XLXI_1
+AND2 		c7/c5/XLXI_1
+AND2 		c7/c6/XLXI_1
+AND2 		c7/c7/XLXI_1
+AND2 		c7/c8/XLXI_1
+AND2 		c7/c9/XLXI_1
+AND2 		c8/c0/XLXI_1
+AND2 		c8/c1/XLXI_1
+AND2 		c8/c10/XLXI_1
+AND2 		c8/c11/XLXI_1
+AND2 		c8/c12/XLXI_1
+AND2 		c8/c13/XLXI_1
+AND2 		c8/c14/XLXI_1
+AND2 		c8/c15/XLXI_1
+AND2 		c8/c2/XLXI_1
+AND2 		c8/c3/XLXI_1
+AND2 		c8/c4/XLXI_1
+AND2 		c8/c5/XLXI_1
+AND2 		c8/c6/XLXI_1
+AND2 		c8/c7/XLXI_1
+AND2 		c8/c8/XLXI_1
+AND2 		c8/c9/XLXI_1
+AND2 		c9/c0/XLXI_1
+AND2 		c9/c1/XLXI_1
+AND2 		c9/c10/XLXI_1
+AND2 		c9/c11/XLXI_1
+AND2 		c9/c12/XLXI_1
+AND2 		c9/c13/XLXI_1
+AND2 		c9/c14/XLXI_1
+AND2 		c9/c15/XLXI_1
+AND2 		c9/c2/XLXI_1
+AND2 		c9/c3/XLXI_1
+AND2 		c9/c4/XLXI_1
+AND2 		c9/c5/XLXI_1
+AND2 		c9/c6/XLXI_1
+AND2 		c9/c7/XLXI_1
+AND2 		c9/c8/XLXI_1
+AND2 		c9/c9/XLXI_1
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| D7seg<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<2>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<3>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<4>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<5>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<6>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<7>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<8>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<9>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<10>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<11>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<12>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<13>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<14>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D7seg<15>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| clk                                | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| led<0>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<1>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<3>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<4>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<5>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<6>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<7>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<8>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<9>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<10>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<11>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<12>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<13>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<14>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| led<15>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| switches<0>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<1>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<2>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<3>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<4>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<5>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<6>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<7>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<8>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<9>                        | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<10>                       | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<11>                       | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<12>                       | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<13>                       | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<14>                       | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| switches<15>                       | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

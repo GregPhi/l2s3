@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/l2/philippot/TP3/add4bit.xst" -ofn "/home/l2/philippot/TP3/add4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc S3.ucf -p xc3s1200e-fg320-4 add4bit.ngc add4bit.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o add4bit_map.ncd add4bit.ngd add4bit.pcf 
+par -w -intstyle ise -ol high -t 1 add4bit_map.ncd add4bit.ncd add4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml add4bit.twx add4bit.ncd -o add4bit.twr add4bit.pcf -ucf S3.ucf 
+bitgen -intstyle ise -f add4bit.ut add4bit.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym add4bit /home/l2/philippot/TP3/add4bit.sch /home/l2/philippot/TP3/add4bit.sym 

@@ -1,0 +1,10 @@
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/mux2x16.vhf,-w,/home/l2/philippot/TP8/mux2x16.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/afficheur16.vhf,-w,/home/l2/philippot/TP8/afficheur16.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/inc.vhf,-w,/home/l2/philippot/TP8/inc.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/toplevel.vhf,-w,/home/l2/philippot/TP8/toplevel.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/Mux4x4.vhf,-w,/home/l2/philippot/TP8/Mux4x4.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/connecteur16.vhf,-w,/home/l2/philippot/TP8/connecteur16.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/S3.vhf,-w,/home/l2/philippot/TP8/S3.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/connecteur.vhf,-w,/home/l2/philippot/TP8/connecteur.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/compteur4.vhf,-w,/home/l2/philippot/TP8/compteur4.sch
+sch2hdl,-sympath,/home/l2/philippot/TP8/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/philippot/TP8/clkdiv.vhf,-w,/home/l2/philippot/TP8/clkdiv.sch

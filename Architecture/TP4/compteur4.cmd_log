@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym compteur4 /home/l2/philippot/TP4/compteur4.sch /home/l2/philippot/TP4/compteur4.sym 

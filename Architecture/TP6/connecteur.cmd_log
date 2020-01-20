@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym connecteur /home/l2/philippot/TP6/connecteur.sch /home/l2/philippot/TP6/connecteur.sym 

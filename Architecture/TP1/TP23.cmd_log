@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -refsym TP23 /home/l2/philippot/TP1/TP23.sch /home/l2/philippot/TP1/TP23.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TP23_drc.vhf -w /home/l2/philippot/TP1/TP23.sch 
+sch2sym -intstyle ise -family spartan3e -refsym TP23 /home/l2/philippot/TP1/TP23.sch /home/l2/philippot/TP1/TP23.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TP23_drc.vhf -w /home/l2/philippot/TP1/TP23.sch 

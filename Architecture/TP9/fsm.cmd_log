@@ -1,0 +1,4 @@
+vhdtdtfi -lib work fsm.vhd -prj TP9 -o fsm.spl -module fsm -template /opt/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/philippot/Documents/ARCHITECTURE/TP/TP9/fsm.sym 
+vhdtdtfi -lib work fsm.vhd -prj TP9 -o fsm.spl -module fsm -template /opt/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/philippot/Documents/ARCHITECTURE/TP/TP9/fsm.sym 

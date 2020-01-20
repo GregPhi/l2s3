@@ -1,0 +1,8 @@
+Release 12.4 Drc M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Thu Oct  1 11:30:16 2015
+
+drc -z add4bit.ncd add4bit.pcf
+
+DRC detected 0 errors and 0 warnings.

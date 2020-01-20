@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="TP9" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|ALU.sch</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/XLXI_186 - ALU</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c0 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c1 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c10 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c11 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c12 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c13 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c14 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c2 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c3 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c4 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c5 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c6 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c7 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c8 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_103 - S3/c9 - connecteur16</ClosedNode>
+         <ClosedNode>/toplevel |home|l2|philippot|Documents|ARCHITECTURE|TP|TP9|toplevel.sch/XLXI_96 - afficheur16</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>XLXI_103 - fsm - Behavioral (/home/l2/philippot/Documents/ARCHITECTURE/TP/TP9/fsm.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >8</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000168000000020000000000000000000000000000000064ffffffff000000810000000000000002000001680000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>XLXI_103 - fsm - Behavioral (/home/l2/philippot/Documents/ARCHITECTURE/TP/TP9/fsm.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000039f000000040101000100000000000000000000000064ffffffff000000810000000000000004000000a30000000100000000000001160000000100000000000000840000000100000000000001620000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>afficheur16.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f2000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001440000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

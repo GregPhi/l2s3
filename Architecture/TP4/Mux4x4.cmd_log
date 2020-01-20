@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym Mux4x4 /home/l2/philippot/TP4/Mux4x4.sch /home/l2/philippot/TP4/Mux4x4.sym 

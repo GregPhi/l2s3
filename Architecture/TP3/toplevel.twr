@@ -1,0 +1,142 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf
+
+Design file:              toplevel.ncd
+Physical constraint file: toplevel.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2010-11-18)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+switches<0>    |led<0>         |    6.650|
+switches<0>    |led<1>         |    7.156|
+switches<0>    |led<2>         |    7.563|
+switches<0>    |led<3>         |    8.026|
+switches<0>    |led<4>         |   10.431|
+switches<0>    |sevenseg<0>    |   10.062|
+switches<0>    |sevenseg<1>    |   10.223|
+switches<0>    |sevenseg<2>    |   10.816|
+switches<0>    |sevenseg<3>    |   10.918|
+switches<0>    |sevenseg<4>    |   10.264|
+switches<0>    |sevenseg<5>    |    8.863|
+switches<0>    |sevenseg<6>    |    9.570|
+switches<1>    |led<1>         |    6.014|
+switches<1>    |led<2>         |    7.317|
+switches<1>    |led<3>         |    8.063|
+switches<1>    |led<4>         |   10.468|
+switches<1>    |sevenseg<0>    |   10.099|
+switches<1>    |sevenseg<1>    |   10.084|
+switches<1>    |sevenseg<2>    |   10.853|
+switches<1>    |sevenseg<3>    |   10.955|
+switches<1>    |sevenseg<4>    |   10.301|
+switches<1>    |sevenseg<5>    |    8.900|
+switches<1>    |sevenseg<6>    |    9.607|
+switches<2>    |led<2>         |    7.303|
+switches<2>    |led<3>         |    6.283|
+switches<2>    |led<4>         |    8.472|
+switches<2>    |sevenseg<0>    |    9.164|
+switches<2>    |sevenseg<1>    |    9.677|
+switches<2>    |sevenseg<2>    |    9.953|
+switches<2>    |sevenseg<3>    |   10.058|
+switches<2>    |sevenseg<4>    |    9.681|
+switches<2>    |sevenseg<5>    |    7.779|
+switches<2>    |sevenseg<6>    |    8.876|
+switches<3>    |led<3>         |    8.104|
+switches<3>    |led<4>         |    8.305|
+switches<3>    |sevenseg<0>    |   10.140|
+switches<3>    |sevenseg<1>    |   10.125|
+switches<3>    |sevenseg<2>    |   10.894|
+switches<3>    |sevenseg<3>    |   10.996|
+switches<3>    |sevenseg<4>    |   10.342|
+switches<3>    |sevenseg<5>    |    8.941|
+switches<3>    |sevenseg<6>    |    9.648|
+switches<4>    |led<0>         |    8.097|
+switches<4>    |led<1>         |    7.184|
+switches<4>    |led<2>         |    7.799|
+switches<4>    |led<3>         |    8.197|
+switches<4>    |led<4>         |   10.602|
+switches<4>    |sevenseg<0>    |   10.233|
+switches<4>    |sevenseg<1>    |   10.438|
+switches<4>    |sevenseg<2>    |   10.987|
+switches<4>    |sevenseg<3>    |   11.089|
+switches<4>    |sevenseg<4>    |   10.435|
+switches<4>    |sevenseg<5>    |    9.034|
+switches<4>    |sevenseg<6>    |    9.741|
+switches<5>    |led<1>         |    6.685|
+switches<5>    |led<2>         |    7.202|
+switches<5>    |led<3>         |    8.068|
+switches<5>    |led<4>         |   10.473|
+switches<5>    |sevenseg<0>    |   10.104|
+switches<5>    |sevenseg<1>    |   10.089|
+switches<5>    |sevenseg<2>    |   10.858|
+switches<5>    |sevenseg<3>    |   10.960|
+switches<5>    |sevenseg<4>    |   10.306|
+switches<5>    |sevenseg<5>    |    8.905|
+switches<5>    |sevenseg<6>    |    9.612|
+switches<6>    |led<2>         |    8.341|
+switches<6>    |led<3>         |    7.331|
+switches<6>    |led<4>         |    9.737|
+switches<6>    |sevenseg<0>    |   10.202|
+switches<6>    |sevenseg<1>    |   10.715|
+switches<6>    |sevenseg<2>    |   10.991|
+switches<6>    |sevenseg<3>    |   11.096|
+switches<6>    |sevenseg<4>    |   10.719|
+switches<6>    |sevenseg<5>    |    8.817|
+switches<6>    |sevenseg<6>    |    9.914|
+switches<7>    |led<3>         |    8.794|
+switches<7>    |led<4>         |    9.337|
+switches<7>    |sevenseg<0>    |   10.830|
+switches<7>    |sevenseg<1>    |   10.815|
+switches<7>    |sevenseg<2>    |   11.584|
+switches<7>    |sevenseg<3>    |   11.686|
+switches<7>    |sevenseg<4>    |   11.032|
+switches<7>    |sevenseg<5>    |    9.631|
+switches<7>    |sevenseg<6>    |   10.338|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct  1 12:13:07 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 249 MB
+
+
+

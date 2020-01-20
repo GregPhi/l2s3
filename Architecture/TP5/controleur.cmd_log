@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym controleur /home/l2/philippot/TP5/controleur.sch /home/l2/philippot/TP5/controleur.sym 

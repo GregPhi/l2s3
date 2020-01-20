@@ -1,0 +1,38 @@
+Running: /opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/l2/philippot/TP5/toplevel_isim_beh.exe -prj /home/l2/philippot/TP5/toplevel_beh.prj work.toplevel 
+ISim M.81d (signature 0x9ca8bed6)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/l2/philippot/TP5/fsm.vhd" into library work
+Parsing VHDL file "/home/l2/philippot/TP5/controleur.vhf" into library work
+Parsing VHDL file "/home/l2/philippot/TP5/clkdiv.vhf" into library work
+Parsing VHDL file "/home/l2/philippot/TP5/toplevel.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 84588 KB
+Fuse CPU Usage: 250 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling package vcomponents
+Compiling architecture fd_v of entity fd [\FD('0')\]
+Compiling architecture inv_v of entity inv [inv_default]
+Compiling architecture behavioral of entity clkdiv_muser_toplevel [clkdiv_muser_toplevel_default]
+Compiling architecture xor2_v of entity xor2 [xor2_default]
+Compiling architecture fdce_v of entity fdce [\FDCE('0')\]
+Compiling architecture behavioral of entity ftce_mxilinx_toplevel [\FTCE_MXILINX_toplevel('0')\]
+Compiling architecture and4_v of entity and4 [and4_default]
+Compiling architecture and3_v of entity and3 [and3_default]
+Compiling architecture and2_v of entity and2 [and2_default]
+Compiling architecture vcc_v of entity vcc [vcc_default]
+Compiling architecture behavioral of entity cb4ce_mxilinx_toplevel [cb4ce_mxilinx_toplevel_default]
+Compiling architecture behavioral of entity fsm [fsm_default]
+Compiling architecture behavioral of entity controleur_muser_toplevel [controleur_muser_toplevel_defaul...]
+Compiling architecture behavioral of entity toplevel
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable /home/l2/philippot/TP5/toplevel_isim_beh.exe
+Fuse Memory Usage: 648252 KB
+Fuse CPU Usage: 290 ms
+GCC CPU Usage: 480 ms
